@@ -14,7 +14,6 @@ public class WeixinAPIHelper {
 	protected static final Logger log = LoggerFactory.getLogger(WeixinAPIHelper.class);
 
 	/**
-	 * 
 	 * @return
 	 */
 	public static JSONObject getTemplate(String template_id_short) {
