@@ -255,7 +255,7 @@ public class WeixinAPIHelper {
 		String json ="{"
 				+ "\"touser\":\""+toUser+"\","
 				+ "\"url\":\""+url+"\","
-				+ "\"template_id\":\"_h1d7osYO1VNwMsQi3whq209kE-BYYt0mSRFCbns_Ds\","
+				+ "\"template_id\":\"Xk9vso_87sqhqfun5czRz7ldhcpXSf8fBKbN_w6S5Lo\","
 				+ "\"data\":{"
 				+ "\"first\":{"
 				+ "\"value\":\""+title+"\","
