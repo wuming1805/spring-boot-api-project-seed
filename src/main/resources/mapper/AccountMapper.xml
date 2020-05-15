@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.AccountMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Account">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="BIGINT" property="id" />
+    <result column="UTYPE" jdbcType="TINYINT" property="utype" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="TOKEN" jdbcType="VARCHAR" property="token" />
+    <result column="MOBILE" jdbcType="VARCHAR" property="mobile" />
+    <result column="REALNAME" jdbcType="VARCHAR" property="realname" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="SEXCODE" jdbcType="TINYINT" property="sexcode" />
+    <result column="BIRTHDATE" jdbcType="TIMESTAMP" property="birthdate" />
+    <result column="HEADER" jdbcType="VARCHAR" property="header" />
+    <result column="FLAG" jdbcType="TINYINT" property="flag" />
+    <result column="FAILURENUM" jdbcType="TINYINT" property="failurenum" />
+    <result column="LASTLOGDATE" jdbcType="TIMESTAMP" property="lastlogdate" />
+    <result column="LASTLOGIP" jdbcType="VARCHAR" property="lastlogip" />
+    <result column="REGIP" jdbcType="VARCHAR" property="regip" />
+    <result column="REGDATE" jdbcType="TIMESTAMP" property="regdate" />
+    <result column="REGTYPE" jdbcType="SMALLINT" property="regtype" />
+    <result column="CARDTYPE" jdbcType="VARCHAR" property="cardtype" />
+    <result column="IDCARD" jdbcType="VARCHAR" property="idcard" />
+    <result column="ACTIVATED" jdbcType="SMALLINT" property="activated" />
+    <result column="OPENID" jdbcType="VARCHAR" property="openid" />
+    <result column="NATIONALITY" jdbcType="TINYINT" property="nationality" />
+    <result column="PATIENTCODE" jdbcType="VARCHAR" property="patientcode" />
+    <result column="PROVINCE" jdbcType="VARCHAR" property="province" />
+    <result column="PROVINCE_CODE" jdbcType="VARCHAR" property="provinceCode" />
+    <result column="CITY" jdbcType="VARCHAR" property="city" />
+    <result column="CITY_CODE" jdbcType="VARCHAR" property="cityCode" />
+    <result column="AREA" jdbcType="VARCHAR" property="area" />
+    <result column="AREA_CODE" jdbcType="VARCHAR" property="areaCode" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="certification_validity_period" jdbcType="VARCHAR" property="certificationValidityPeriod" />
+    <result column="aliuid" jdbcType="VARCHAR" property="aliuid" />
+  </resultMap>
+  <!--<select id="findd" resultMap="BaseResultMap">-->
+    <!--select * from account-->
+  <!--</select>-->
+</mapper>
